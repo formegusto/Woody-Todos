@@ -1,0 +1,63 @@
+#container { 
+    padding: 1rem;
+    background-color: #FFF;
+
+    max-width: 50vw;
+    max-height: 50vh;
+
+    border-radius: 1rem;
+
+    overflow: scroll;
+}
+
+#container > div:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+#container-title {
+    font-size: 2rem;
+
+    font-weight: 700;
+    text-align: center;
+    
+    padding-bottom: 1rem;;
+}
+
+#container-content {
+    padding-bottom: 1rem;
+}
+
+#container-content > ul > li{
+    font-size: 1.25rem;
+}
+
+#container-content > ul > li:not(:last-child){
+    margin-bottom: 4px;
+}
+
+#appendBlock { 
+    display: flex;
+}
+
+#appendBlock > input {
+    height: 40px;
+
+    font-size: 1.25rem;
+
+    border: 1px solid #DDD;
+    flex: 1;
+    
+}
+
+#appendBlock > button {
+    background-color: #87CEFA;
+
+    height: 40px;
+
+    font-size: 1.25rem;
+    color: #fff;
+
+    border: none;
+    cursor: pointer;
+}
+
